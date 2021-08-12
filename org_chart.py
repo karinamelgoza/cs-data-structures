@@ -73,8 +73,8 @@ def make_tree(ceo, reports):
 
 
 if __name__ == '__main__':
-    # print(make_tree('Jane', ['bob', 'mike',
-    #       'Jes', 'susan']).node_count())
+    print(make_tree('Jane', ['bob', 'mike',
+          'Jes', 'susan']))
 
     resume = Node("resume.txt", [])
     recipes = Node("recipes.txt", [])
